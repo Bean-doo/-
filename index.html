@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="许童瑶的个人作品集网站。" />
+    <meta name="theme-color" content="#f1f2f3" />
+    <title>许童瑶｜个人作品集</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230a4866'/%3E%3Cpath d='M9 33c8-8 15-8 23 0s15 8 23 0v9c-8 8-15 8-23 0S17 34 9 42z' fill='%23bdeaff'/%3E%3Ccircle cx='43' cy='19' r='7' fill='%23fff' fill-opacity='.9'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-slide="0">
+    <a class="skip-link" href="#welcome">跳到主要内容</a>
+
+    <header class="site-header">
+      <a class="header-action resume-action" href="./assets/许童瑶-简历.pdf" download>下载简历</a>
+      <nav class="top-nav" aria-label="主要导航">
+        <button class="nav-item is-active" type="button" data-slide="0" aria-current="page"><span>01</span>Welcome</button>
+        <button class="nav-item" type="button" data-slide="1"><span>02</span>About</button>
+        <button class="nav-item" type="button" data-slide="2"><span>03</span>At School</button>
+        <button class="nav-item" type="button" data-slide="3"><span>04</span>Internship</button>
+        <button class="nav-item" type="button" data-slide="4"><span>05</span>Portfolio</button>
+        <button class="nav-item" type="button" data-slide="5"><span>06</span>More</button>
+      </nav>
+      <button class="header-action" type="button" data-go-to="5">了解更多</button>
+    </header>
+
+    <main class="chapter-viewport">
+      <div class="chapter-track" id="chapterTrack">
+        <section class="chapter welcome-page" id="welcome" aria-labelledby="welcome-title">
+          <div class="star-field" id="starField" aria-label="可以捕捉的星星"></div>
+          <div class="welcome-content">
+            <div class="avatar-placeholder"><img src="./assets/profile/crayon-avatar.webp" alt="许童瑶的蜡笔彩绘头像" /></div>
+            <h1 id="welcome-title">Welcome to my channel!</h1>
+            <p class="welcome-note">Catch a star, and discover a moment.</p>
+          </div>
+          <div class="catch-guide" aria-hidden="true"><span>✦</span><p>抓住一颗移动的星星<br />随机打开照片卡片</p></div>
+        </section>
+
+        <section class="chapter about-page" id="about" aria-label="关于许童瑶">
+          <div class="page-shell about-shell">
+            <div class="about-layout">
+              <div class="portrait-collage" aria-label="许童瑶的个人照片拼贴">
+                <p class="collage-note collage-note--top">IT'S A PLEASURE TO MEET YOU!</p>
+                <div class="collage-photos">
+                  <figure class="collage-photo collage-photo--child"><img src="./assets/portrait-collage/portrait-6.webp" alt="童年时的照片" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--cat"><img src="./assets/portrait-collage/portrait-2.webp" alt="和橘猫相处的日常" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--portrait"><img src="./assets/portrait-collage/portrait-4.webp" alt="在旅行中拍摄的个人照片" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--friend"><img src="./assets/portrait-collage/portrait-1.webp" alt="与朋友一起拍摄的照片" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--play"><img src="./assets/portrait-collage/portrait-3.webp" alt="带着趣味滤镜的自拍" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--beach"><img src="./assets/portrait-collage/portrait-8.webp" alt="在海边留下的生活片段" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--ski"><img src="./assets/portrait-collage/portrait-5.webp" alt="在雪地滑雪的照片" loading="lazy" /></figure>
+                  <figure class="collage-photo collage-photo--dog"><img src="./assets/portrait-collage/portrait-7.webp" alt="一只微笑的小狗" loading="lazy" /></figure>
+                </div>
+                <svg class="collage-doodle collage-doodle--left" viewBox="0 0 80 60" aria-hidden="true"><path d="M4 6c18 3 21 22 35 22 12 0 19-11 26-7M55 12l11 9-10 9" /></svg>
+                <svg class="collage-doodle collage-doodle--right" viewBox="0 0 80 70" aria-hidden="true"><path d="M3 45c9-31 33-4 24 10C18 71 7 50 22 33c16-17 33 2 48-17M58 14l12 2-2 12" /></svg>
+                <p class="collage-note collage-note--bottom">sea · a whole me <span aria-hidden="true">✶</span></p>
+                <svg class="collage-cherry" viewBox="0 0 104 98" aria-hidden="true"><filter id="pencil-edge"><feTurbulence type="fractalNoise" baseFrequency=".07" numOctaves="2" seed="4" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2"/></filter><g filter="url(#pencil-edge)" fill="none" stroke="#b94b56" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M52 10c-3 20-10 33-24 46M53 10c7 22 17 36 30 45M53 11c-9-12-19-11-25-4 9 2 17 4 25 4M54 11c9-11 20-8 25-1-9 1-17 3-25 1"/><path d="M48 12c-3 14 0 24 7 30"/><path d="M31 52c-18-2-25 12-20 27 4 14 16 19 30 13 13-5 17-23 8-33-4-5-11-7-18-7ZM78 51c-16-4-27 7-27 23 0 14 12 23 27 21 15-2 21-18 16-30-3-8-8-12-16-14Z"/></g></svg>
+                <svg class="collage-paperclip" viewBox="0 0 56 82" aria-hidden="true"><path d="M20 49V16C20 6 26 3 34 3c9 0 14 5 14 14v45c0 12-7 18-18 18-10 0-18-6-18-17V26c0-6 4-10 10-10 5 0 9 4 9 10v35c0 4-2 7-6 7-4 0-6-3-6-7V38"/></svg>
+              </div>
+              <div class="about-summary">
+                <section class="summary-block">
+                  <p class="mini-label">EDUCATION · <span class="ink-label">教育经历</span></p>
+                  <h3>河海大学</h3>
+                  <p><strong>社会学本科</strong> · <em>2023.09 - 至今</em></p>
+                  <p><strong>专业前15%</strong> · <strong>IELTS 7.5</strong></p>
+                  <p class="placeholder-text">主修社会调查方法、社会统计学、质性研究方法、传播学概论与新媒体运营。</p>
+                </section>
+                <section class="summary-block">
+                  <p class="mini-label">SKILLS · <span class="ink-label">个人技能</span></p>
+                  <ul class="skill-list">
+                    <li><strong>内容与运营</strong><small>官方文案、视频脚本、公众号与小红书</small></li>
+                    <li><strong>调研与分析</strong><small>田野调查、深度访谈、SPSS / Stata</small></li>
+                    <li><strong>设计与协作</strong><small>PPT、Excel、Canva、活动统筹与团队管理</small></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter school-page" id="school" aria-labelledby="school-title">
+          <div class="page-shell school-shell">
+            <header class="page-heading page-heading--row">
+              <div><p class="page-number">03 / CAMPUS</p><h2 id="school-title">At School</h2></div>
+              <p class="single-line-note handwritten-note">点击下列面板查看细节</p>
+            </header>
+            <div class="accordion" data-accordion>
+              <article class="accordion-item is-open">
+                <button class="accordion-trigger" type="button" aria-expanded="true" aria-controls="school-panel-1">
+                  <span class="accordion-index">01</span><span class="accordion-title"><small>LEADERSHIP</small>校园任职</span><span class="accordion-icon" aria-hidden="true">−</span>
+                </button>
+                <div class="accordion-panel" id="school-panel-1">
+                  <div class="experience-copy">
+                    <p class="experience-meta"><em>河海大学社会学编辑部副部长 · 2023.09 - 至今</em></p>
+                    <ul><li>统筹<strong>10人团队</strong>，负责海报设计、推文撰写、讲座筹办与学期刊物编辑，年度工作目标达成率<strong>100%</strong>。</li><li>运营社会学官方公众号，累计粉丝<strong>6000+</strong>，日均阅读量<strong>300+</strong>，单篇最高阅读量<strong>2000</strong>。</li></ul>
+                  </div>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="school-panel-2">
+                  <span class="accordion-index">02</span><span class="accordion-title"><small>CLASS</small>班级经历</span><span class="accordion-icon" aria-hidden="true">＋</span>
+                </button>
+                <div class="accordion-panel" id="school-panel-2" hidden>
+                  <div class="experience-copy">
+                    <p class="experience-meta"><em>河海大学社会学1班班长 · 2024.09 - 2025.09</em></p>
+                    <ul><li>完成班级事务资料的全流程整理与归档，推动信息规范化管理，信息传递效率提升<strong>30%</strong>。</li><li>组织校级心理班会、专业“邻公益”等<strong>10+场活动</strong>，班级凝聚力评分位列专业<strong>第一</strong>。</li></ul>
+                  </div>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="school-panel-3">
+                  <span class="accordion-index">03</span><span class="accordion-title"><small>NEW MEDIA</small>新媒体运营</span><span class="accordion-icon" aria-hidden="true">＋</span>
+                </button>
+                <div class="accordion-panel" id="school-panel-3" hidden>
+                  <div class="experience-copy">
+                    <p class="experience-meta"><em>个人小红书账号运营（雅思赛道）· 独立运营者 · 2026.06 - 至今</em></p>
+                    <ul><li>独立完成定位、选题、封面、内容制作与数据复盘，结合 AI Agent 提升效率；发布<strong>5篇</strong>笔记，单篇最高浏览<strong>2000+</strong>、点赞<strong>200+</strong>。</li><li>3个月累计增粉<strong>1200+</strong>，笔记总曝光量突破<strong>1.2万</strong>，商业合作转化率达<strong>100%</strong>。</li></ul>
+                  </div>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="school-panel-4">
+                  <span class="accordion-index">04</span><span class="accordion-title"><small>RESEARCH</small>国家级创新创业大赛</span><span class="accordion-icon" aria-hidden="true">＋</span>
+                </button>
+                <div class="accordion-panel" id="school-panel-4" hidden>
+                  <div class="experience-copy">
+                    <p class="experience-meta"><em>大学生创新创业大赛（国家级）· 核心成员 · 2024.10 - 至今</em></p>
+                    <ul><li>围绕乡村文旅产业开展田野调查，完成<strong>30+名</strong>访谈对象的深度访谈与<strong>3万+字</strong>一手调研报告，并使用 SPSS、Stata 与 AI Agent 分析数据。</li><li>参与撰写<strong>1.5万字</strong>项目脚本；项目进入<strong>国家级大创复赛</strong>，方案获当地文旅局采纳，预计带动当地旅游收入提升<strong>20%</strong>。</li></ul>
+                  </div>
+                </div>
+              </article>
+              <article class="accordion-item">
+                <button class="accordion-trigger" type="button" aria-expanded="false" aria-controls="school-panel-5">
+                  <span class="accordion-index">05</span><span class="accordion-title"><small>VISUAL STORY</small>影像创作</span><span class="accordion-icon" aria-hidden="true">＋</span>
+                </button>
+                <div class="accordion-panel" id="school-panel-5" hidden>
+                  <div class="experience-copy">
+                    <p class="experience-meta"><em>“高逸杯”全国高校社会调查微视频大赛 · 团队负责人 · 2025.07 - 2025.11</em></p>
+                    <ul><li>统筹访谈、勘景、拍摄与后期，独立完成<strong>1000+字</strong>视频脚本，并负责调色、字幕与多片段衔接优化，累计打磨<strong>5版</strong>。</li><li>作品从全国<strong>200+支高校队伍</strong>中突围，获<strong>全国三等奖</strong>；获官方公众号转载，累计播放<strong>3000+</strong>。</li></ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter internship-page" id="internship" aria-labelledby="internship-title">
+          <div class="page-shell internship-shell">
+            <header class="page-heading page-heading--row">
+              <div><p class="page-number">04 / INTERNSHIP</p><h2 id="internship-title">Internship</h2></div>
+            </header>
+            <div class="internship-columns">
+              <article class="work-card">
+                <header><p class="mini-label">BRAND COMMUNICATION</p><h3>中国平安财险</h3><span>无锡分公司 · 品宣部实习生</span><em>2026.01 - 2026.02</em></header>
+                <div class="metric-row"><div><strong>20+</strong><span>正式稿件</span></div><div><strong>1200+</strong><span>视频播放</span></div><div><strong>800+</strong><span>视觉覆盖</span></div></div>
+                <ul class="work-highlights"><li>完成正式稿件<strong>20+份</strong>与 3000 字党建述职报告，内容通过率<strong>100%</strong>。</li><li>独立完成晨会、新春视频从脚本到剪辑的全流程，累计播放<strong>1200+次</strong>。</li><li>参与年会策划、协调与执行并设计<strong>5张</strong>海报，活动实现<em>零差错落地</em>。</li></ul>
+              </article>
+              <article class="work-card">
+                <header><p class="mini-label">PUBLIC COMMUNICATION</p><h3>云林街道办事处</h3><span>党政办实习生</span><em>2025.08 - 2025.09</em></header>
+                <div class="metric-row"><div><strong>12</strong><span>份材料</span></div><div><strong>8</strong><span>篇内容</span></div><div><strong>1.2W+</strong><span>居民覆盖</span></div></div>
+                <ul class="work-highlights"><li>参与年度党建计划、党员学习总结等官方材料编写，累计<strong>12份</strong>并全部通过上级审核。</li><li>负责通知与公众号推文，累计产出<strong>8篇</strong>，平均阅读<strong>500+</strong>，覆盖辖区居民<strong>1.2万+</strong>。</li><li>在政策要求与居民沟通之间，积累了<em>正式表达与公共沟通</em>经验。</li></ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter portfolio-page" id="portfolio" aria-labelledby="portfolio-title">
+          <div class="page-shell portfolio-shell">
+            <header class="page-heading">
+              <p class="page-number">05 / PORTFOLIO</p>
+              <h2 id="portfolio-title">作品集</h2>
+            </header>
+
+            <div class="portfolio-tabs" role="tablist" aria-label="作品集分类">
+              <button class="portfolio-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="portfolio-account" data-portfolio="account">账号运营</button>
+              <button class="portfolio-tab" type="button" role="tab" aria-selected="false" aria-controls="portfolio-video" data-portfolio="video">视频落地</button>
+              <button class="portfolio-tab" type="button" role="tab" aria-selected="false" aria-controls="portfolio-research" data-portfolio="research">数据分析</button>
+            </div>
+
+            <div class="portfolio-stage">
+              <section class="portfolio-panel is-active" id="portfolio-account" role="tabpanel" data-flip-id="portfolio-content">
+                <header class="portfolio-card-header">
+                  <p class="mini-label">CONTENT OPERATION · XIAOHONGSHU</p>
+                  <h3>雅思赛道账号：从 0 到 1</h3>
+                  <p>从真实备考需求出发，记录赛道判断、内容制作与数据复盘的完整过程。</p>
+                  <div class="portfolio-facts"><span><strong>10,972</strong> 流量曝光</span><span><strong>1,859</strong> 页面观看</span><span><strong>26%</strong> 互动率</span></div>
+                </header>
+                <div class="thought-layout">
+                  <ol class="thought-axis" aria-label="账号运营思考轴">
+                    <li class="is-current"><span>01</span>赛道观察</li><li><span>02</span>用户需求</li><li><span>03</span>账号定位</li><li><span>04</span>选题策划</li><li><span>05</span>内容制作</li><li><span>06</span>数据复盘</li><li><span>07</span>商务合作</li>
+                  </ol>
+                  <div class="process-cards" data-card-context="账号运营"></div>
+                </div>
+              </section>
+
+              <section class="portfolio-panel" id="portfolio-video" role="tabpanel" data-flip-id="portfolio-content" hidden>
+                <header class="portfolio-card-header">
+                  <p class="mini-label">VISUAL STORY · JIUZIWAN</p>
+                  <h3>鸠兹湾：社会学如何走进影像</h3>
+                  <p>挖掘鸠兹湾返乡青年乡村坚守的共性，突出一个好的组织文化对于成功的乡村创业企业的驱动力。</p>
+                  <div class="portfolio-facts"><span><strong>30+人</strong> 调研访谈</span><span><strong>3版</strong> 文稿迭代</span><span><strong>全国第三 · 最佳人气奖</strong></span></div>
+                </header>
+                <div class="thought-layout">
+                  <ol class="thought-axis" aria-label="视频落地思考轴">
+                    <li class="is-current"><span>01</span>前期调研</li><li><span>02</span>文案撰写</li><li><span>03</span>脚本构建</li><li><span>04</span>二次回访</li><li><span>05</span>剪辑配音</li><li><span>06</span>比赛成果</li>
+                  </ol>
+                  <div class="process-cards" data-card-context="视频落地"></div>
+                </div>
+              </section>
+
+              <section class="portfolio-panel" id="portfolio-research" role="tabpanel" data-flip-id="portfolio-content" hidden>
+                <header class="portfolio-card-header">
+                  <p class="mini-label">QUANTITATIVE RESEARCH · SPSS 25.0</p>
+                  <h3>媒介使用与社会信任：从选题转向到分层回归</h3>
+                  <p>基于 CGSS2023 的 6,982 个有效样本，比较互联网、报纸与电视对社会信任的差异化影响。</p>
+                  <div class="portfolio-facts"><span><strong>6,982</strong> 有效样本</span><span><strong>3 层</strong> 分层回归</span><span><strong>SPSS 25.0</strong></span></div>
+                </header>
+                <div class="thought-layout">
+                  <ol class="thought-axis" aria-label="数据分析思考轴">
+                    <li class="is-current"><span>01</span>初始选题</li><li><span>02</span>问题诊断</li><li><span>03</span>研究转向</li><li><span>04</span>变量设计</li><li><span>05</span>数据处理</li><li><span>06</span>分层回归</li><li><span>07</span>结果反思</li>
+                  </ol>
+                  <div class="process-cards" data-card-context="数据分析"></div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter more-page" id="more" aria-labelledby="more-title">
+          <div class="page-shell more-shell">
+            <header class="page-heading page-heading--row">
+              <div><p class="page-number">06 / BEYOND THE RESUME</p><h2 id="more-title" data-scramble>More About Me</h2></div>
+              <p class="handwritten-note" data-scramble>选择一条线索，看见真实的我</p>
+            </header>
+            <div class="story-tabs" role="tablist" aria-label="更多关于我">
+              <button class="story-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="story-panel" data-story="story">真实的我</button>
+              <button class="story-tab" type="button" role="tab" aria-selected="false" aria-controls="life-panel" data-story="life">兴趣爱好</button>
+            </div>
+            <div class="story-stage">
+              <section class="story-panel is-active" id="story-panel" role="tabpanel" data-flip-id="story-content">
+                <div class="panel-intro"><p class="mini-label">THE REAL ME</p><h3 class="feature-heading">如果你想了解我更多：</h3></div>
+                <div class="personal-details">
+                  <div class="personal-detail"><h4>生日：</h4><p>2004年11月23日</p></div>
+                  <div class="personal-detail"><h4>星座：</h4><p>射手座</p></div>
+                  <div class="personal-detail"><h4>MBTI：</h4><p>虽然不太信，但是偷偷测了很多次，在ENTJ-INTJ之间来回横跳</p></div>
+                  <div class="personal-detail"><h4>特长：</h4><p>书法、架子鼓、学习、写东西、冷幽默</p></div>
+                  <div class="personal-detail"><h4>讨厌的事情：</h4><p>磨叽、吵架、犹豫不决、芹菜</p></div>
+                  <div class="personal-detail"><h4>喜欢的东西：</h4><p>小动物、植物、蓝色、动漫、卤肉饭</p></div>
+                </div>
+              </section>
+              <section class="story-panel" id="life-panel" role="tabpanel" data-flip-id="story-content" hidden>
+                <div class="panel-intro"><p class="mini-label">MY INTERESTS</p><h3 class="feature-heading">兴趣爱好</h3><img class="interests-character" src="./assets/interests-character.webp" alt="戴耳机和棒球帽的黑白插画小人" loading="lazy" /></div>
+                <div class="interest-details">
+                  <section class="interest-detail"><h4>运动</h4><p>·不喜欢跑步但是热爱运动，包括游泳、羽毛球、滑雪……（都是三脚猫功夫）</p></section>
+                  <section class="interest-detail"><h4>阅读</h4><p>本人书籍榜单TOP3：《红楼梦》《霍乱时期的爱情》《百年孤独》</p><p>（也喜欢看日本文学，但是日本文学看多了影响心情，遂戒断。）</p><p>（兴致来了喜欢阅读人类学书籍，但至今为止只读完了老师布置的课程作业）</p></section>
+                  <section class="interest-detail"><h4>手账</h4><p>最近发掘的新爱好，特别是和亲近的人一起做手账，让人心情舒畅~</p></section>
+                  <section class="interest-detail"><h4>游戏</h4><p>技术很差但是爱玩，前段时间喜欢《洛克王国》，再往前喜欢《星露谷》《我的世界》。我喜欢完自由度高的大世界探索游戏。关于竞技类游戏，我玩过《王者荣耀》《绝地求生》之类，这种游戏和朋友一起玩特别开心，一个人玩就有点无聊。音游也玩过不少，市面上热门的音游都玩过，但后面弃游是因为喜欢的歌都打完了，也不喜欢过剧情，水平也就那样，我忍受不了难听又更新慢的曲库。要是有一款可以自由导入歌曲的音游就好了！</p></section>
+                  <section class="interest-detail"><h4>散步</h4><p>我喜欢去植物园、公园等自然之地，旅游也很喜欢自然风光的景点，什么也不干就是走。</p></section>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <button class="side-control side-control--prev" type="button" id="prevButton" aria-label="上一页"><span aria-hidden="true">←</span></button>
+    <button class="side-control side-control--next" type="button" id="nextButton" aria-label="下一页"><span aria-hidden="true">→</span></button>
+    <div class="page-dots" role="group" aria-label="页面快速切换">
+      <button class="is-active" type="button" data-slide="0" aria-label="前往第1页"></button><button type="button" data-slide="1" aria-label="前往第2页"></button><button type="button" data-slide="2" aria-label="前往第3页"></button><button type="button" data-slide="3" aria-label="前往第4页"></button><button type="button" data-slide="4" aria-label="前往第5页"></button><button type="button" data-slide="5" aria-label="前往第6页"></button>
+    </div>
+
+    <dialog class="photo-dialog" id="photoDialog" aria-labelledby="photo-dialog-title">
+      <button class="dialog-close" type="button" id="dialogClose" aria-label="关闭照片卡">×</button>
+      <div class="caught-star-slot" id="caughtStarSlot"></div>
+      <div class="revealed-photo" id="revealedPhoto"><img id="revealedPhotoImage" alt="" /></div>
+      <p class="mini-label">CAUGHT MOMENT</p>
+      <h2 id="photo-dialog-title">你抓住了一颗星星</h2>
+      <p id="photoCaption">点击首页的星星，随机查看一个经历片段。</p>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Flip.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
